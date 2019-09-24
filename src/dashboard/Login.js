@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView,Image,View,TextInput,Text,TouchableOpacity,TouchableHighlight} from 'react-native';
+import {SafeAreaView,Image,View,TextInput,Text,TouchableHighlight} from 'react-native';
 import Style from './css/Style';
 
  
@@ -14,11 +14,11 @@ export default function Login({navigation}) {
 
 
 Entrar = () => {
- navigation.navigate('Feed')
+ navigation.navigate('Edit')
 }
 
 return <SafeAreaView style={Style.containerLogin}>
-<View>< Image  /></View>
+<View>< Image/></View>
 <View style={Style.ViewLogin}>
 <TextInput placeholder='Email'
 style={Style.InputTextInput}
@@ -30,11 +30,11 @@ placeholderTextColor='black'
 />
 
 </View>
-<TouchableOpacity>
-<Text style = {Style.textoesqueci}>{this.state.esqueci}</Text></TouchableOpacity>
-<TouchableHighlight style={Style.buttonLoginEntrar} onPress={this.Entrar}><Text>Entrar</Text></TouchableHighlight>
-< TouchableOpacity >< Text style = {Style.textonão}>{this.state.não}</Text></ TouchableOpacity>
-
+<View style={Style.ViewBottonsLogin}>
+<TouchableHighlight><Text style={Style.textoesqueci}>{this.state.esqueci}</Text></TouchableHighlight>
+<TouchableHighlight style={Style.buttonLoginEntrar}><Text>Entrar</Text></TouchableHighlight>
+<TouchableHighlight onPress ={this.Entrar}><Text  style={Style.textonão}>{this.state.não}</Text></TouchableHighlight>
+</View>
 
 
 

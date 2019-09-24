@@ -75,7 +75,62 @@ export default StyleSheet.create({
     height: 45,
     marginTop:70
 
-    }
+    }, 
+    
+    ViewBottonsLogin: {
+    
+        justifyContent: 'center',
+        alignItems: "center",
+        
+
+
+
+    },
+
+
+
+    
+
+    ViewFeed: {
+       
+        justifyContent: 'center',
+     alignSelf: 'stretch',
+    marginTop:10
+    },
+
+    containerFeed:{
+     
+           justifyContent: 'center',
+           alignItems: 'center',
+             paddingHorizontal: 50,
+          
+    },
+
+
+     textoesqueci1: {
+         marginTop: 30,
+         paddingLeft: 170,
+         color: 'white',
+     },
+
+
+     textoja:{
+         marginTop: 60,
+             paddingHorizontal: 50,
+             color: 'white',
+    },
+
+
+   FeedTitulo:{
+   marginTop: -900,
+
+   },
+
+   ViewFeedTitulo:{
+    justifyContent:'center',
+    alignItems: 'center'   
+   }
+
 
 
 });
