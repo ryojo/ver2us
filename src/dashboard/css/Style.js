@@ -29,7 +29,7 @@ export default StyleSheet.create({
 
 
     containerEdit: {
-        flex: 1,
+       
         justifyContent: 'center',
         alignItems: 'center',
        width: Dimensions.get('window').width,
@@ -135,7 +135,7 @@ export default StyleSheet.create({
 
    EditTitulo:{
    marginTop:-700,
-
+     
 
    },
 
