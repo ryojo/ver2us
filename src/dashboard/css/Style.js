@@ -1,5 +1,5 @@
 import {
-    StyleSheet
+    StyleSheet,Dimensions
 } from 'react-native';
 
 export default StyleSheet.create({
@@ -9,8 +9,11 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: "#6A5ACD",
-    
+          width: Dimensions.get('window').width,
+              height: Dimensions.get('window').height
     },
+
+
 
 
     containerLogin: {
@@ -18,8 +21,19 @@ export default StyleSheet.create({
         justifyContent:'center',
         alignItems: "center",
         backgroundColor: "#6A5ACD",
-       
+             width: Dimensions.get('window').width,
+                 height: Dimensions.get('window').height
         
+      
+    },
+
+
+    containerEdit: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+       width: Dimensions.get('window').width,
+           height: Dimensions.get('window').height,
       
     },
 
@@ -29,6 +43,7 @@ export default StyleSheet.create({
         justifyContent: 'center',
       paddingHorizontal: 50,
       marginTop: 170,
+     
     },
 
   
@@ -50,6 +65,7 @@ export default StyleSheet.create({
          marginTop: 15,
          borderRadius:40,
          paddingHorizontal:20,
+       
          
         },
 
@@ -78,7 +94,7 @@ export default StyleSheet.create({
     }, 
     
     ViewBottonsLogin: {
-    
+           
         justifyContent: 'center',
         alignItems: "center",
         
@@ -91,20 +107,16 @@ export default StyleSheet.create({
 
     
 
-    ViewFeed: {
-       
-        justifyContent: 'center',
-     alignSelf: 'stretch',
-    marginTop:10
+    ViewEdit: {
+        paddingHorizontal: 50,
+      alignSelf: 'stretch',
+          justifyContent: 'center',
+         
+     
+         
     },
 
-    containerFeed:{
-     
-           justifyContent: 'center',
-           alignItems: 'center',
-             paddingHorizontal: 50,
-          
-    },
+    
 
 
      textoesqueci1: {
@@ -121,14 +133,27 @@ export default StyleSheet.create({
     },
 
 
-   FeedTitulo:{
-   marginTop: -900,
+   EditTitulo:{
+   marginTop:-700,
+
 
    },
 
-   ViewFeedTitulo:{
+   ViewEditTitulo:{
     justifyContent:'center',
-    alignItems: 'center'   
+    marginTop:-500,
+    paddingTop:5, 
+   
+   },
+
+   buttonEditComecar:{
+       justifyContent: 'center',
+    alignItems:'center',
+    borderRadius:5,
+    backgroundColor: 'white',
+    width: 172,
+    height: 45,
+    marginTop:70
    }
 
 
