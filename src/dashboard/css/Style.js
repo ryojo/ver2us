@@ -20,16 +20,15 @@ export default StyleSheet.create({
         flex: 1,
         justifyContent:'center',
         alignItems: "center",
-        backgroundColor: "#6A5ACD",
-             width: Dimensions.get('window').width,
-                 height: Dimensions.get('window').height
+        width: Dimensions.get('window').width,
+        height: Dimensions.get('window').height
         
       
     },
 
 
     containerEdit: {
-       
+       flex:1,
         justifyContent: 'center',
         alignItems: 'center',
        width: Dimensions.get('window').width,
@@ -42,7 +41,7 @@ export default StyleSheet.create({
         alignSelf: 'stretch',
         justifyContent: 'center',
       paddingHorizontal: 50,
-      marginTop: 170,
+      marginTop:380,
      
     },
 
@@ -104,6 +103,26 @@ export default StyleSheet.create({
     },
 
 
+    ViewLoginFundo:{
+width: Dimensions.get('window').width, height: Dimensions.get('window').height,
+    marginTop: 207
+    },
+
+
+    ViewLoginTitulo:{
+paddingHorizontal:80,
+    alignSelf: 'stretch',
+    justifyContent: 'center',
+    marginTop:-900,
+    
+    },
+
+    LoginTitulo:{
+marginTop: -710,
+paddingHorizontal:15
+    },
+
+
 
     
 
@@ -111,7 +130,7 @@ export default StyleSheet.create({
         paddingHorizontal: 50,
       alignSelf: 'stretch',
           justifyContent: 'center',
-         
+     marginTop:-555
      
          
     },
@@ -120,14 +139,14 @@ export default StyleSheet.create({
 
 
      textoesqueci1: {
-         marginTop: 30,
+         marginTop: 10,
          paddingLeft: 170,
          color: 'white',
      },
 
 
      textoja:{
-         marginTop: 60,
+         marginTop:15,
              paddingHorizontal: 50,
              color: 'white',
     },
@@ -140,9 +159,9 @@ export default StyleSheet.create({
    },
 
    ViewEditTitulo:{
-    justifyContent:'center',
-    marginTop:-500,
-    paddingTop:5, 
+   alignItems: 'center',
+    marginTop:100
+    
    
    },
 
@@ -153,8 +172,14 @@ export default StyleSheet.create({
     backgroundColor: 'white',
     width: 172,
     height: 45,
-    marginTop:70
-   }
+    marginTop:10
+   },
+
+
+   ViewEditFundo:{
+  width: Dimensions.get('window').width, height: Dimensions.get('window').height,
+  marginTop:9
+}
 
 
 

@@ -6,7 +6,7 @@ import Feed from '../dashboard/Feed';
 export default createAppContainer(
 
 createSwitchNavigator({
-//Login,
+Login,
 Edit,
 Feed
 }),
