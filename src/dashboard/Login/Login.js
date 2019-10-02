@@ -1,49 +1,25 @@
 import React from 'react';
-import {ImageBackground,View,TextInput,Text,TouchableHighlight,Dimensions,Image} from 'react-native';
-import  {containerlogin} from '../Login/Style'
-import {widthPercentageToDP as wp,heightPercentageToDP as hp,} from 'react-native-responsive-screen';
+import {View,SafeAreaView,Image}  from 'react-native';
+import fundo from '../Layout/img/fundo.svg';
+import css from '../Login/css';
+export default class Login from extends React.Component{
+metodos ={
 
-import Fundo from '../dashboard/img/fundo.png';
- import Logo from '../dashboard/img/logo.png';
-import { containerlogin } from './Style';
- 
-state = {
-    esqueci: "Esqueci minha senha",
-    não: " Não tenho uma conta",
-
+ botao1: 'esqueci'   
 }
 
-
-export default function Login({navigation}) {
-
-
-windowWidth = ()=>{
-wp('100%')
-
-}
-windowHeight=()=>{
-    
-}
-
-Edit =()=>{
- navigation.navigate('Edit');   
-}
-
-Entrar = () => {
- navigation.navigate('Feed');
-}
+render(){
 
 
 
-return <SafeAreaView>
-    <containerlogin>
-<View>
-</View>
-</containerlogin>
+
+    return (
+<SafeAreaView style={css.container}>
+<Image source={fundo}/> 
 </SafeAreaView>
-    
- 
 
 
 
+    )
+}   
 }
