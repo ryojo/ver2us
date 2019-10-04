@@ -12,6 +12,11 @@ metodos ={
 entrar: "Entrar"
 }
  
+Register = ({navigation})=>{
+navigation.navigate('register');
+}
+
+
 render(){ 
 
    
@@ -38,7 +43,7 @@ placeholderTextColor = {'black'}/>
 <TouchableHighlight style={css.buttonentrar}><Text>{this.metodos.entrar}</Text></TouchableHighlight>   
 </View>
 <View style={css.ViewButtontext1}>
-<TouchableHighlight><Text style={css.textobotao2}>{this.metodos.botao2}</Text></TouchableHighlight>
+<TouchableHighlight onPress={this.Register}><Text style={css.textobotao2}>{this.metodos.botao2}</Text></TouchableHighlight>
 </View>
 
 </SafeAreaView>
