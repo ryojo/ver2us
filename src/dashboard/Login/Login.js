@@ -2,28 +2,29 @@ import React from 'react';
 import {View,SafeAreaView,Image,TextInput,TouchableHighlight,Text,Button}  from 'react-native';
 import fundo from '../Layout/img/fundo.png';
 import css from '../Login/css';
-import {widthPercentageToDP as wp,heightPercentageToDP as hp} from 'react-native-responsive-screen'
+import {widthPercentageToDP as wp,heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import logo from '../Layout/img/logo.png';
-export default class Login  extends React.Component{
-metodos ={
+export default class Longin extends React.Component{
+ metodos={
+ botao1: "Esqueci minha senha",
+ entrar: "Entrar",
+ botao2: "Não tenho uma conta"
 
- botao1: "Esqueci minha Senha",
- botao2: "Não tenho uma conta",  
-entrar: "Entrar"
-}
- 
-Register = ({navigation})=>{
+ } 
+
+register = ({navigation})=>{
 navigation.navigate('register');
 }
-
-
-render(){ 
+ 
+render(){
+ 
 
    
 
 
 
     return (
+    
 <SafeAreaView style={css.container}>
 <Image source = {fundo}style = {{width: wp('100%'), height: hp('115%'), marginTop:-124,}}/>
 <View style={css.ViewLogo}><Image source = {logo}/></View>
@@ -43,7 +44,7 @@ placeholderTextColor = {'black'}/>
 <TouchableHighlight style={css.buttonentrar}><Text>{this.metodos.entrar}</Text></TouchableHighlight>   
 </View>
 <View style={css.ViewButtontext1}>
-<TouchableHighlight onPress={this.Register}><Text style={css.textobotao2}>{this.metodos.botao2}</Text></TouchableHighlight>
+<TouchableHighlight onPress={this.register}><Text style={css.textobotao2}>{this.metodos.botao2}</Text></TouchableHighlight>
 </View>
 
 </SafeAreaView>
@@ -51,5 +52,6 @@ placeholderTextColor = {'black'}/>
 
 
     )
-}   
+  
+    }
 }
