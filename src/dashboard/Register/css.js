@@ -42,7 +42,7 @@ export default StyleSheet.create({
         marginTop: 15
     },
     ViewButtonText: {
-        flex: 1,
+    
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: 130,
@@ -74,7 +74,7 @@ export default StyleSheet.create({
         fontSize: 12,
     },
     ViewButtontext1: {
-        flex: 1,
+    
         marginTop: 85,
         marginRight: 20,
     }

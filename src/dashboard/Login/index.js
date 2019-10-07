@@ -1,7 +1,7 @@
 import React from 'react';
-import {View,SafeAreaView,Image,TextInput,TouchableHighlight,Text,Button}  from 'react-native';
+import {View,SafeAreaView,Image,TextInput,TouchableHighlight,Text}  from 'react-native';
 import fundo from '../Layout/img/fundo.png';
-import css from '../Login/css';
+import css from './css';
 import {widthPercentageToDP as wp,heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import logo from '../Layout/img/logo.png';
 export default class Longin extends React.Component{
@@ -12,8 +12,16 @@ export default class Longin extends React.Component{
 
  } 
 
-register = ({navigation})=>{
+Register = ()=>{ // método do thiago // método de entrar no cadastro
+const {navigation} = this.props
 navigation.navigate('register');
+
+}
+
+
+Entrar = ()=>{
+ const {navigation} = this.props
+ navigation.navigate('feed')   
 }
  
 render(){
@@ -41,10 +49,10 @@ placeholderTextColor = {'black'}/>
 <TouchableHighlight><Text style={css.textobotao1}>{this.metodos.botao1}</Text></TouchableHighlight>
 </View>
 <View style={css.ViewButtonEntrar}>
-<TouchableHighlight style={css.buttonentrar}><Text>{this.metodos.entrar}</Text></TouchableHighlight>   
+<TouchableHighlight onPress={this.Entrar} style={css.buttonentrar}><Text>{this.metodos.entrar}</Text></TouchableHighlight>   
 </View>
 <View style={css.ViewButtontext1}>
-<TouchableHighlight onPress={this.register}><Text style={css.textobotao2}>{this.metodos.botao2}</Text></TouchableHighlight>
+<TouchableHighlight onPress={this.Register}><Text style={css.textobotao2}>{this.metodos.botao2}</Text></TouchableHighlight>
 </View>
 
 </SafeAreaView>

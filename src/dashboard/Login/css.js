@@ -75,8 +75,8 @@ textobotao2: {
 },
 
 ViewButtontext1:{
- flex:1,
- marginTop:100,
+
+ marginTop:75,
  marginRight: 20,
 }
 })
