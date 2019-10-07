@@ -75,8 +75,15 @@ textobotao2: {
 },
 
 ViewButtontext1:{
+<<<<<<< HEAD:src/dashboard/Login/css.js
 
  marginTop:75,
+=======
+ flex:1,
+
+ marginTop:100,
+>>>>>>> 8104ad2799a9c5774e8f49c3ac66adf931b07ad9:src/dashboard/Login/style.js
  marginRight: 20,
+ backgroundColor: '#000000'
 }
 })
