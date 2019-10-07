@@ -76,9 +76,7 @@ textobotao2: {
 
 ViewButtontext1:{
  flex:1,
-
  marginTop:100,
  marginRight: 20,
- backgroundColor: '#000000'
 }
 })

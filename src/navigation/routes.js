@@ -1,14 +1,16 @@
-import { createAppContainer, createSwitchNavigator } from 'react-navigation'
-
-import Login from '../dashboard/Login';
-import Register from '../dashboard/Register';
-
-const Navigator = createAppContainer(
-    createSwitchNavigator({
-        Login,
-        Register
-    })
-);
+import {createAppContainer,createSwitchNavigator} from 'react-navigation'
+import login from '../dashboard/Login/Login'
+import register from '../dashboard/Register/register'
+export default createAppContainer(
 
 
-export default Navigator;
+createSwitchNavigator({
+login,
+register
+
+})
+)
+
+
+
+
