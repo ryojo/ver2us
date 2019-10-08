@@ -1,5 +1,10 @@
-import {StyleSheet} from 'react-native';
-import {widthPercentageToDP as wp,heightPercentageToDP as hp} from 'react-native-responsive-screen'
+import {StyleSheet,Dimensions,PixelRatio} from 'react-native';
+
+
+
+
+
+
 
 
 export default StyleSheet.create({
@@ -18,7 +23,7 @@ export default StyleSheet.create({
   marginTop:269,
   paddingHorizontal:45,
     alignSelf: 'stretch',
-    
+  
  },
 
  input:{ // input do login
@@ -75,15 +80,15 @@ textobotao2: {
 },
 
 ViewButtontext1:{
-<<<<<<< HEAD:src/dashboard/Login/css.js
+
 
  marginTop:75,
-=======
- flex:1,
+
+ 
 
  marginTop:100,
->>>>>>> 8104ad2799a9c5774e8f49c3ac66adf931b07ad9:src/dashboard/Login/style.js
+
  marginRight: 20,
- backgroundColor: '#000000'
+
 }
 })
