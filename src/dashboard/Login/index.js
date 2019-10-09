@@ -48,13 +48,13 @@ render(){
     
     
     
-
+ 
 
 // hp (115%) marginTop: -125
     return (    
     
 <SafeAreaView style={style.container}>
-<Image source = {fundo}style = {{width: WP('100%'), height: HP('115%'),marginTop:-125}}/>
+<Image source = {fundo}style = {{width: WP('100%'), height: HP('115%'), marginTop:-125}}/>
 <View style={style.ViewLogo}><Image source = {logo}/></View>
 
 <View style = {style.ViewInput}>

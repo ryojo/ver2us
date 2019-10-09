@@ -1,17 +1,16 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
-import style from './style';
-
-
+import Following from '../Following/index';
+import Explore from '../Explore/index';
 export default class Feed extends React.Component{
  render(){
   
     
     return (
-<SafeAreaView style={style.container}>
-
-
-
+<SafeAreaView>
+<Text></Text>
+<Following/>
+<Explore/>
 
 
 
