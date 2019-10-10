@@ -8,7 +8,6 @@ export default class Feed extends React.Component{
     
     return (
 <SafeAreaView>
-<Text></Text>
 <Following/>
 <Explore/>
 
