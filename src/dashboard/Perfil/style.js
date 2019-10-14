@@ -2,6 +2,7 @@ import {StyleSheet} from 'react-native';
 
 
 
+
 export default StyleSheet.create({
 
 
@@ -25,7 +26,7 @@ alignItems: 'flex-start',
 
 ViewNome:{
  flex:1,
- marginTop:20,
+ marginTop:-240,
  flexDirection: 'row',
 marginLeft: 10,
 
@@ -35,9 +36,10 @@ marginLeft: 10,
 
 
 ViewApelido:{
+flex:1,
 
-marginTop: 40,
-marginRight:50,
+marginTop: -265,
+marginLeft: 15,
 
 },
 
@@ -45,7 +47,18 @@ marginRight:50,
 ViewComponentesNomes:{
  flex:1,
  justifyContent: 'center',
- flexDirection: 'row'   
+  
+},
+
+
+ViewDescricao:{
+ flex:1,
+marginTop: -529,
+marginLeft:-13,
+paddingHorizontal: 30,
+textAlign: 'left',
+height: 16,
+
 }
 
 
