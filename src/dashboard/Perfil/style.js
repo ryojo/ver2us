@@ -39,6 +39,13 @@ ViewApelido:{
 marginTop: 40,
 marginRight:50,
 
+},
+
+
+ViewComponentesNomes:{
+ flex:1,
+ justifyContent: 'center',
+ flexDirection: 'row'   
 }
 
 

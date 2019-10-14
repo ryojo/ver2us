@@ -29,13 +29,15 @@ return (
 <SafeAreaView style={style.container}>
 <View style={style.ViewUser}>
 <Image source={user}/>
+
 <View style={style.ViewNome}>
+<View style={style.ViewComponentesNomes}>
 <Nomes nome={"David"}/>
 </View>
 <View style={style.ViewApelido}>
 <Apelido apelido={"@davidbruno"}/>   
 </View>
-
+</View>
 </View>
 
 
