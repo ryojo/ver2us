@@ -59,6 +59,19 @@ paddingHorizontal: 30,
 textAlign: 'left',
 height: 16,
 
+},
+
+ViewImages:{
+flexDirection: 'column',
+
+ 
+   
+},
+
+
+
+ViewNumbers:{
+  flex:1,  
 }
 
 
