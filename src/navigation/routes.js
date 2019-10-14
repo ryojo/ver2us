@@ -12,7 +12,7 @@ const Navigator = createAppContainer(
     createSwitchNavigator({
         //Login,
         //Register,
-        Feed: createMaterialTopTabNavigator({ 
+        /*Feed: createMaterialTopTabNavigator({ 
         Seguindo: { screen: Following }, /// o Feed está importando a pasta following, onde a página carrega 
          Explorar: {screen:Explore}
 
@@ -33,8 +33,8 @@ const Navigator = createAppContainer(
             },  //estilação do menu 
            
         } 
-        }),
-
+        }),*/
+        Perfil
          
 
         
