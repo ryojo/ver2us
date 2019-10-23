@@ -7,7 +7,7 @@ export default StyleSheet.create({
 
 
 container:{ 
- flex:1,
+
     justifyContent:'center',
  alignItems: 'center',
 paddingHorizontal: 20,
@@ -16,21 +16,24 @@ paddingHorizontal: 20,
 
 
 ViewUser:{
-flex:1,
+  height:"100%",
     flexDirection: 'row',
-marginTop:30,
+marginTop:"10%",
 alignItems: 'flex-start',
+backgroundColor: 'black',
+
 
   
 }, 
 
 ViewNome:{
  flex:1,
- marginTop:-240,
+ marginTop:'15%',
  flexDirection: 'row',
-marginLeft: 10,
+marginLeft:"10%",
+backgroundColor:"blue",
 
- alignItems: 'center'  ,
+   
 
 },
 
@@ -38,16 +41,20 @@ marginLeft: 10,
 ViewApelido:{
 flex:1,
 
-marginTop: -265,
-marginLeft: 15,
-
+marginTop: "-10%",
+marginLeft: "1%",
+backgroundColor:'yellow',
 },
 
 
 ViewComponentesNomes:{
  flex:1,
  justifyContent: 'center',
-  
+  marginTop:"1%",
+  marginBottom: '50%',
+  backgroundColor:'gray',
+
+
 },
 
 
